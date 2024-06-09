@@ -18,9 +18,7 @@ class Dog:
     @property
     def name(self):
         """The name property"""
-        return self._name  
-
-   
+        return self._name
 
     @name.setter
     def name(self, name):
